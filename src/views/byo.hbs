@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Build Your Own Pizza</h1>
+
+    <form action="/byoSummary" method="POST">
+
+    <label for="size">Choose a Size:</label>
+
+<select name="size" id="size">
+  <option value="small", 5>Small</option>
+  <option value="medium">Medium</option>
+  <option value="large">Large</option>
+</select><br>
+<p></p>
+<label>How Many Toppings?</label><input type="text" name="toppings">
+
+<ul>
+    <li>Pepporoni</li>
+    <li>Ham</li>
+    <li>Sausage</li>
+    <li>Bacon</li>
+    <li>Green Pepper</li>
+    <li>Jalapeno Pepper</li>
+    <li>Pineapple</li>
+    <li>Sun-dried Tomato</li>
+    <li>Basil</li>
+    <li>Sriracha</li>
+</ul>
+<input type="checkbox" id="glutenFree" name="glutenFree">
+<label for="glutenFree">Gluten-Free Crust?</label>
+<p>Special Instructions (Optional)</p>
+<textarea rows="4" cols="50" name="instructions"></textarea>
+<p></p>
+
+<button type="submit">Calculate Price</button>
+
+<a href="/">Go Home</a>
+
+</form>
+</body>
+</html>

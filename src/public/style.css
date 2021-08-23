@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Indie Flower', cursive;
+}
+ul{
+    padding-inline-start: 0%;
+}
+li{
+    list-style: none;
+}
+
+
+
+img{
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        display:flex;
+        
+      background-color: rgb(213, 234, 241);
+    }
+    .text{
+        /* border:1px red solid; */
+        
+        width:50%;
+    }
+    .pizza{
+        /* border: 1px solid red; */
+        width:50%;
+        padding-top: 50px;
+        
+    }
+    img{
+        box-shadow: 5px 10px rgb(184, 201, 201);
+    }
+  }
